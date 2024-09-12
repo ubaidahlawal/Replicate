@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="form.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up</title>
+  </head>
+  <body>
+    <main>
+      <section class="firstsection">
+        <h1>Get Started With US</h1>
+        <p>Complete these easy steps to register your account</p>
+        <div class="righthandside">
+          <button class="span-full button">1 Sign up your account</button>
+          <button class="span-full button">2 Set up your workspace</button>
+          <button class="span-full button">3 Set up your profile</button>
+        </div>
+      </section>
+
+      <section>
+        <form class="flow" action="/action_page.php">
+          <h1>Sign Up account</h1>
+          <p>Enter your personal data to create your account.</p>
+          <div class="socialmediabuttonwrapper">
+            <button class="span-full button">
+              <img src="assests/devicon--google.svg" alt="Google" />
+              Google
+            </button>
+            <button class="span-full button">
+              <img src="assests/devicon--facebook.svg" alt="Facebook" />Facebook
+            </button>
+          </div>
+
+          <div class="underline">
+            <div></div>
+            <span>or</span>
+            <div></div>
+          </div>
+          <div class="name">
+            <div class="form-control">
+              <label for="fname">First Name</label>
+              <input
+                placeholder="e.g. John"
+                type="text"
+                id="fname"
+                name="fname"
+              />
+            </div>
+
+            <div class="form-control">
+              <label for="lname"> Last Name</label>
+              <input
+                placeholder="e.g.Colette"
+                type="text"
+                id="lname"
+                name="lname"
+              />
+            </div>
+          </div>
+
+          <div class="form-control">
+            <label for="email address">Email Address</label>
+            <input
+              placeholder="e.g. Johncolette25643@gmail.com"
+              type="text"
+              id="email address"
+              name="email address"
+            />
+          </div>
+
+          <div class="form-control">
+            <label for="password">Password:</label>
+            <input
+              placeholder="Enter password"
+              type="password"
+              name="password"
+              id="password"
+            />
+          </div>
+          <p>Must be at least 8 characters.</p>
+          <button class="span-full button">Sign Up</button>
+          <h3>
+            Already have an account?
+            <a href="#">Login</a>
+          </h3>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>

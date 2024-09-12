@@ -44,7 +44,8 @@ span {
 
 img {
     width: 50%;
-    filter: hue-rotate(80deg) saturate(7);
+    filter: saturate(1000%);
+
 }
 
 ul {
@@ -73,6 +74,7 @@ ul p {
     margin-top: 8px;
     margin-right: 25px;
 }
+
 
 
 

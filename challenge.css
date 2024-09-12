@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    align-items: center;
+    background-image: url(assests/bg-desktop.svg);
+    background-color:hsl(300, 69%, 71%);
+    background-color: hsl(257, 40%, 49%);
+    color: white;
+    flex-direction: column;
+}
+
+main {
+ display: flex;
+ align-items:center ;
+ justify-content: center;
+ gap: 25px;
+ padding: 20px;
+ margin: 20px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    opacity: 70%;
+}
+
+button {
+    display: flex;
+    color: hsl(257, 40%, 49%);
+    
+}
+
+.toapply {
+  display: flex;
+  background-color: white;
+  border-width:6px ;
+  border-color: white;
+  border-style: solid;
+  border-radius: 20px;
+  width: 25%;
+  align-items: center;
+  font-size: 0.875em;
+  justify-content: center;
+  
+}
+
+.aside {
+    padding-top: 67px;
+    justify-content: center;
+    
+ }
+
+ ul {
+    display: flex;
+    list-style: none;
+    padding-left: 1rem 1rem;
+    align-items: baseline;
+    gap: 10px;
+    align-self: flex-end;
+    margin-right: 50px;
+    
+ }
+
+#section1 {
+    margin: 60px;
+}

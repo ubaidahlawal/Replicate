@@ -1,0 +1,87 @@
+body {
+   display: flex;
+   align-items: center;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    max-width: 1200px;
+    gap: 25px;
+    padding: 20px;
+    margin: 20px;
+   }
+
+   .button {
+    background-color: transparent;
+    padding: 1rem 2rem;
+    display: flex;
+    gap: 0.625rem;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    font-size: 0.875rem;
+    align-items: center;
+    color: white;
+   }
+  
+   /* .button:hover {
+    filter: drop-shadow(rgb(255, 243, 233) 5px 5px 5px) invert(20%);
+ } */
+
+h1 {
+    font-size: 2.5rem;
+    color: var(--darker);
+    margin-bottom: 1.5625rem;
+}
+p {
+    opacity:70% ;
+}
+
+.underline div {
+    height: 1px;
+    width: 50%;
+    background-color: white;  
+}
+.underline {
+ display: flex;
+ align-items: center;
+ gap: 15px;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.form-control {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.socialmediabuttonwrapper {
+    display: flex;
+    gap: 10px;
+}
+
+div .button{
+   border-width: 1px;
+   border-color: white;
+   border-style: solid;
+   
+
+}
+div .righthandside {
+    border-width:1px;
+    border-color:white;
+    border-style: solid;
+
+}
+.firstsection {
+    
+}
