@@ -5,6 +5,13 @@ body {
     color: white;
     text-align: center;
 }
+div a{
+    color: white;
+    margin: auto;
+    padding: auto;
+    
+}
+    
 
 main {
     display: flex;
