@@ -1,7 +1,7 @@
 body {
    display: flex;
    align-items: center;
-    background-color: black;
+    background-color: gray;
     color: white;
     text-align: center;
 }
@@ -18,12 +18,15 @@ main {
     align-items:center ;
     justify-content: center;
     max-width: 1200px;
-    gap: 25px;
-    padding: 20px;
-    margin: 20px;
+    gap: 200px;
+    padding: 100px;
+    margin: 100px;
+    background-color: black;
+    width: 100%;
    }
 
    .button {
+    display: flex;
     background-color: transparent;
     padding: 1rem 2rem;
     display: flex;
@@ -57,7 +60,7 @@ p {
 .underline {
  display: flex;
  align-items: center;
- gap: 15px;
+ gap: 20px;
 }
 
 .name {
@@ -83,12 +86,47 @@ div .button{
    
 
 }
-div .righthandside {
-    border-width:1px;
-    border-color:white;
-    border-style: solid;
+.righthandside {
+   display: flex;
+   gap: 25px;
+   flex-direction: column;
+    
 
 }
-.firstsection {
+input { 
+        border: none;
+        outline: none;
+        background-color: gray;
+        border-radius: 6px;
+        color: white;
+        padding: 10px;
+        
+}
+input::placeholder {
+    color: white;
+}
+.register {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+.form {
+    align-items: center;
+    gap: 25px;
+}
+
+.righthandside :first-child {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    color: black;
     
+}
+.firstsection {
+    padding: 100px;
+    background: rgb(138,1,231);
+  background: linear-gradient(90deg, rgba(138,1,231,1) 0%, rgba(89,1,105,1) 100%);
 }
